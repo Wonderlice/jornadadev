@@ -39,17 +39,15 @@ Documentar minha evolução durante a Jornada DEV, praticando programação em *
 
 📂 Estrutura do Repositório
 Jornada-DEV-TOTVS/
-│
-├── anotacoes/
-├── exercicios/
-├── desafios/
-├── projetos/
-├── tcc/
-│   ├── documentacao/
-│   ├── codigo-fonte/
-│   ├── apresentacao/
-│   └── README.md
-└── README.md
+jornadadev/
+├── README.md
+├── modulo-01
+├── modulo-02
+├── modulo-03
+├── ...
+└── modulo-10
+└── tcc
+
 
 ---
 
