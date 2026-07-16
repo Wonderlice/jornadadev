@@ -5,13 +5,9 @@ FUNCTION Main()
 
     IF nvalor > 100
         ndesconto := nvalor * 0.10
-    ENDIF
+    ENDIF   
 
     ntotal := nvalor - ndesconto
 
-    QOut("O valor com desconto ‚ de: $" + Str(ndesconto))
+    QOut("O valor com desconto ï¿½ de: $" + Str(ndesconto))
 RETURN NIL
-
-
-
-
