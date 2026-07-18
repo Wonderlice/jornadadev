@@ -1,8 +1,8 @@
 //meu segundo programa em Harbour
 
 FUNCTION Main ()
-     hb_cdpSelect("PT850")                   //definindo a codifica‡Æo de caracteres para PT850 (Portuguˆs)
+     hb_cdpSelect("PT850")                   //definindo a codificaï¿½ï¿½o de caracteres para PT850 (Portuguï¿½s)
 
-    QOut("Nome: Alice, Cidade: SÆo Paulo")
-    QOut("Pronto para aprender ADVPL!")
+    QOut("Nome: Alice, Cidade: SÃ£o Paulo")
+    QOut("Pronto para aprender ADVPL!") 
 RETURN NIL

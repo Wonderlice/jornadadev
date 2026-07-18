@@ -1,16 +1,16 @@
 //Meu terceiro programa em Harbour/ADVPL
  
-//Declarando vari veis locais
+//Declarando variï¿½veis locais
 FUNCTION Main ()                     
     LOCAL cNome   := "Alice"                  
-    LOCAL cCidade := "SÆo Paulo"          
+    LOCAL cCidade := "SÃ£o Paulo"          
     LOCAL cCurso  := "Harbour/ADVPL"     
 
-    hb_cdpSelect("PT850")                 //definindo a codifica‡Æo de caracteres para PT850 (Portuguˆs)
+    hb_cdpSelect("PT850")                 //definindo a codificaï¿½ï¿½o de caracteres para PT850 (Portuguï¿½s)
 
-    //Imprimindo a ficha de apresenta‡Æo
+    //Imprimindo a ficha de apresentaÃ§Ã£o
     QOut("===============================")    
-    QOut("     Ficha de apresenta‡Æo     ")    
+    QOut("     Ficha de apresentaÃ§Ã£o     ")    
     QOut("===============================")    
     QOut("Nome: " + cNome)                     
     QOut("Cidade: " + cCidade)                 
