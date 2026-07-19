@@ -1,0 +1,29 @@
+//ExercÃ­cio 4 â€” NÃºmero do mÃªs â†’ nome do mÃªs
+
+FUNCTION Main()
+   LOCAL cMes   := ""
+   LOCAL nMes   := 0
+   LOCAL aMeses := { "Janeiro", "Fevereiro", "MarÃ§o", "Abril", "Maio", "Junho", ;
+                      "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro" }
+
+   CLS //limpa a tela do console
+
+   QOut("========================================")
+   QOut("        NUMERO DO MES -> NOME")
+   QOut("========================================")
+   QOut("")
+
+   ACCEPT "Digite o n£mero do mˆs (1 a 12): " TO cMes
+   nMes := Val(cMes)
+
+   QOut("")
+
+   IF nMes >= 1 .AND. nMes <= 12
+      QOut("  Mˆs " + Str(nMes, 2) + " ‚: " + aMeses[nMes])
+   ELSE
+      QOut("  Mˆs inv lido! Digite um valor entre 1 e 12.")
+   ENDIF
+
+   QOut("")
+
+RETURN NIL
